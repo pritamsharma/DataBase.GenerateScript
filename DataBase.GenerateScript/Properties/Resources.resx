@@ -1,0 +1,275 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="CreateInsertScriptForTable" xml:space="preserve">
+    <value>Insert for Table
+
+This section creates an Insert script for existing data contained in the table.
+
+Table Name dropdown contains value of all the tables of the database. Select the table for which you want to create the insert script.
+
+Column Name Data Grid will contain the columns present in the selected table. It will have checkbox below the name of the column to indicate if it is a part of the filter string.
+
+Filter String Data Grid contains columns by which the insert script creation has to be filtered from the database.
+
+Add Row button will add a row in the Filter String data grid for the user to enter the filter by value.
+Delete Row button will delete the selected row from the Filter String data grid.
+
+The checkbox contained in the screen will have the following functionality:
+1)	Search By Primary Key: If user selects this option then for the selected column only the primary columns will be populated in the Column Name and Filter String data grid.
+2)	Include Delete: If checked it will also create a delete script before each insert for the entered filter by value.
+3)	Create Script for Entire Table Content: If checked then the insert script for the entire tables content will be made.
+4)	Include Identity Column: If this is checked insert script for even the Identity column will be created.
+
+After selection is done click on the Retrieve button to generate the script.  
+Once the Script is generated it can be saved as a .sql file with the Save button. 
+Reset button will reset the screen. 
+Configure button will open a screen for setting connection to the database.
+</value>
+    <comment>Helptext for creating Insert script for data contained in table</comment>
+  </data>
+  <data name="CreateSpTemplete" xml:space="preserve">
+    <value>This section creates a New Stored Procedure create template having the format given below.
+
+Table Name dropdown gives the name of table contained in the Database. You can select more then one table name by selecting table name form the dropdown and tabbing out multiple times. On click of Retrieve button Stored Procedure create template for selected table will be created.
+
+If you are selecting the checkbox Create SP for all the Tables in the Database then new Stored Procedure Create template will be created on click of Retrieve button.
+
+Once the Script is generated it can be saved as a .sql file with the Save button. 
+Reset button will reset the screen. 
+Configure button will open a screen for setting connection to the database.
+
+Format of the Stored Procedure Generated. This is an example for a table called adjustment having the following columns 
+1) rate (primary key, decimal (11, 4), not null), 
+2) active_ind (char(1), not null ), 3)
+3) last_update_userid (int , not null)
+4) last_update_dt (datetime, not null)
+5) curr_timestamp (timestamp, not null)
+
+
+--SCRIPT DATE: Dec 14 2009 12:45PM   --
+
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+IF NOT EXISTS (SELECT * FROM sys.objects WHERE object_id = OBJECT_ID(N'[dbo].[usp_adjustment]') AND type in (N'P', N'PC'))
+BEGIN
+	EXEC dbo.sp_executesql @statement = N'
+
+-- ===========================================================================
+-- Author:	    Pritam Sharma
+-- Create date: Dec 14 2009 12:45PM  
+-- Description:	Mode:&gt; I --&gt; INSERT, U --&gt; UPDATE, D --&gt; DELETE
+-- ============================================================================
+CREATE PROCEDURE [dbo].[usp_adjustment] 
+ @mode CHAR(1)
+,@rate   DECIMAL(11,4)
+,@active_ind   CHAR(1)
+,@last_update_userid   INT
+,@last_update_dt   DATETIME
+,@curr_timestamp   TIMESTAMP
+,@old_rate   DECIMAL(11,4)
+
+AS
+BEGIN
+
+	BEGIN TRY
+
+		IF(@mode = ''D'')
+		BEGIN
+
+			DELETE FROM adjustment 
+			WHERE rate = @old_rate 
+
+		END
+		ELSE IF(@mode = ''U'')
+		BEGIN
+
+			UPDATE adjustment SET 
+			rate = @rate,
+			active_ind = @active_ind,
+			last_update_userid = @last_update_userid,
+			last_update_dt = @last_update_dt 
+			WHERE rate = @old_rate
+
+		END
+		ELSE IF(@mode = ''I'')
+		BEGIN
+
+			INSERT INTO adjustment(
+			,rate
+			,active_ind
+			,last_update_userid
+			,last_update_dt)
+			VALUES (
+			@rate
+			,@active_ind
+			,@last_update_userid
+			,@last_update_dt)
+
+		END
+
+		ELSE
+		BEGIN
+
+			RAISERROR(''Please enter proper mode to perform any operation'', 11, 1)
+
+		END
+
+	END TRY
+
+	BEGIN CATCH
+
+		DECLARE @error_message  VARCHAR(MAX),	@error_severity INT
+		SELECT @error_message  = ERROR_MESSAGE(), @error_severity = ERROR_SEVERITY()
+		RAISERROR(@error_message, @error_severity, 1)
+
+	END CATCH
+
+END
+
+	'
+END
+
+GO
+</value>
+    <comment>Helptext for Create new SP templete</comment>
+  </data>
+  <data name="GenerateScript" xml:space="preserve">
+    <value>This section creates Alter or Delete-Insert script for already existing Stored Procedures, Views or Function contained in the Database.
+
+The checkbox Insert-Delete Type Script indicates the type of Script to generate. If it is checked then a script containing both Delete and Insert is created. If it is unchecked then an Alter script is created.
+
+It further has the following three radio buttons 1) Enter Own Value, 2) Get List from Database and 3) Modified by Date.
+
+1)	Enter Own Value: If this radio button is selected then you can enter the name of the script you want to generate in the Script List Text box. You can enter multiple script names in comma separated format. No script will be generated if you have spelled the name incorrectly.
+
+2)	Get List from Database: If this radio button is selected then Search Script dropdown is enabled and it is populated with all the valid Functions, Views and Stored Procedures form the database. You can select the script of your choice from the dropdown. You can select more then one script by selecting different script form the dropdown and tabbing out.
+
+3)	Modified by Date: If you select this option then the From and To Date Time Picker and Script Type Group Box with radio buttons 1) Stored Procedure, 2) View and 3) Function will be enabled. The script type selected by you modified between the From and To date will be generated for Modified by data selection.
+
+After selection is done click on the Retrieve button to generate the script.  
+Once the Script is generated it can be saved as a .sql file with the Save button. 
+Reset button will reset the screen. 
+Configure button will open a screen for setting connection to the database.
+</value>
+    <comment>Helptext for generating script for existing SP, View and Function</comment>
+  </data>
+</root>

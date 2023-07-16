@@ -1,0 +1,18 @@
+M:\Projects\TNZ\Utilities\DataBase.GenerateScript\DataBase.GenerateScript\bin\Release\DataBase.GenerateScript.exe.config
+M:\Projects\TNZ\Utilities\DataBase.GenerateScript\DataBase.GenerateScript\obj\Release\DataBase.GenerateScript.exe
+M:\Projects\TNZ\Utilities\DataBase.GenerateScript\DataBase.GenerateScript\obj\Release\DataBase.GenerateScript.pdb
+C:\Pritam Sharma\Projects\TNZ\Utilities\DataBase.GenerateScript\DataBase.GenerateScript\bin\Release\DataBase.GenerateScript.exe.config
+C:\Pritam Sharma\Projects\TNZ\Utilities\DataBase.GenerateScript\DataBase.GenerateScript\obj\Release\DataBase.GenerateScript.exe
+C:\Pritam Sharma\Projects\TNZ\Utilities\DataBase.GenerateScript\DataBase.GenerateScript\obj\Release\DataBase.GenerateScript.pdb
+C:\Pritam Sharma\Projects\TNZ\Utilities\DataBase.GenerateScript\DataBase.GenerateScript\bin\Release\DataBase.GenerateScript.exe
+C:\Pritam Sharma\Projects\TNZ\Utilities\DataBase.GenerateScript\DataBase.GenerateScript\bin\Release\DataBase.GenerateScript.pdb
+C:\Pritam Sharma\Projects\TNZ\Utilities\DataBase.GenerateScript\DataBase.GenerateScript\obj\Release\ResolveAssemblyReference.cache
+C:\Pritam Sharma\Projects\TNZ\Utilities\DataBase.GenerateScript\DataBase.GenerateScript\obj\Release\DataBase.GenerateScript.BaseForm.resources
+C:\Pritam Sharma\Projects\TNZ\Utilities\DataBase.GenerateScript\DataBase.GenerateScript\obj\Release\DataBase.GenerateScript.Configure.resources
+C:\Pritam Sharma\Projects\TNZ\Utilities\DataBase.GenerateScript\DataBase.GenerateScript\obj\Release\DataBase.GenerateScript.FieldName.resources
+C:\Pritam Sharma\Projects\TNZ\Utilities\DataBase.GenerateScript\DataBase.GenerateScript\obj\Release\DataBase.GenerateScript.Find.resources
+C:\Pritam Sharma\Projects\TNZ\Utilities\DataBase.GenerateScript\DataBase.GenerateScript\obj\Release\DataBase.GenerateScript.Help.resources
+C:\Pritam Sharma\Projects\TNZ\Utilities\DataBase.GenerateScript\DataBase.GenerateScript\obj\Release\DataBase.GenerateScript.MoreOptions.resources
+C:\Pritam Sharma\Projects\TNZ\Utilities\DataBase.GenerateScript\DataBase.GenerateScript\obj\Release\DataBase.GenerateScript.Properties.Resources.resources
+C:\Pritam Sharma\Projects\TNZ\Utilities\DataBase.GenerateScript\DataBase.GenerateScript\obj\Release\DataBase.GenerateScript.ScriptGenerate.resources
+C:\Pritam Sharma\Projects\TNZ\Utilities\DataBase.GenerateScript\DataBase.GenerateScript\obj\Release\DataBase.GenerateScript.csproj.GenerateResource.Cache
